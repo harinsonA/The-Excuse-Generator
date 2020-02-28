@@ -13,9 +13,12 @@ var whoRandom = Math.floor(Math.random()*who.length);
 var whatRandom = Math.floor(Math.random()*what.length);
 var whenRandom = Math.floor(Math.random()*when.length) ;
 
-console.log(whoRandom);
-console.log(whatRandom);
-console.log(whenRandom);
+//Comprobar Valores
+// console.log(whoRandom);
+// console.log(whatRandom);
+// console.log(whenRandom);
+
+
 // Buscar Id en el HTML
 var excuse = document.getElementById('excuse');
 
