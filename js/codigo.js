@@ -24,3 +24,17 @@ var excuse = document.getElementById('excuse');
 
 // // Generar Cadena
 excuse.innerHTML = `${who[whoRandom]} ${what[whatRandom]} ${when[whenRandom]}`;
+
+//Cambio de Colores
+
+function obtenerColor(){
+    var symbols, color;
+    symbols = "0123456789ABCDEF";
+    color="#";
+
+    for (var i = 0; i < 6; i++) {
+       color = color + symbols[Math.floor(Math.random()* 16)];        
+    }
+    console.log(color);
+    document.body.style.background=color;
+}

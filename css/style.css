@@ -1,4 +1,14 @@
+body{
+    background: #0033FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .centrado{
     text-align: center;
     margin-top: 200px;
+}
+button{
+    color: #000;
+    background: transparent;
+    font-size: 16px;
 }
